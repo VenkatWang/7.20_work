@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+           
+        }
+    </style>
+</head>
+<body>
+    <span>
+
+    </span>
+    <ul>
+
+    </ul>
+    <div class="window"></div>
+    <div>
+
+    </div>
+    <p>
+
+    </p>
+
+    <script src="animate.js"></script>
+    <script src="wheel_OOP.js"></script>
+    <script>
+        // 
+        new wheel(".window", {
+            imgs: ["https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg", "https://img.alicdn.com/tps/i4/TB17ZxubPMZ7e4jSZFOSut7epXa.jpg", "https://img.alicdn.com/imgextra/i1/200/O1CN01K60flo1DLdpBTtb74_!!200-0-luban.jpg_q100.jpg_.webp"],
+            imgColor: ["rgb(232,232,232)", "rgb(120,185,205)", "rgb(220,59,0)"],
+            links: ["http://baidu.com", "http://sxuek.com", "https://www.tmall.com/"],
+            imgSize: [1130,500],
+            btnColor: "#000",
+            btnActive: "red",
+            btnPos: ["center", "10"]
+        },{
+            time:5,
+            eachTime:2,
+            runstyle:"Linear"
+        })
+    </script>
+</body>
+
+</html>
